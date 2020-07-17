@@ -1,14 +1,16 @@
 import React from 'react'
-import Tabla from './Tabla'
+import Table from './Table'
 import Input from './inputUser'
+import tableDynamicData from '../tableUser.json';
+
 class Users extends React.Component {
 
     render()
     {
         return (
-            <div style= {{marginLeft:"15%",float:'left',marginTop:"5%"}}>
-                <Input/>
+            <div  style= {{marginLeft:"15%",float:'left',marginTop:"5%"}}>
                 
+                <Table data = {tableDynamicData} />
             </div>
         )
 
