@@ -1,0 +1,17 @@
+[
+    {
+        "Nombre":"uno",
+        "Estado":"Ocupada",
+        "Cliente":"Jorge"
+    },
+    {
+        "Nombre":"dos",
+        "Estado":"Ocupada",
+        "Cliente":"Juan"
+    },
+    {
+        "Nombre":"tres",
+        "Estado":"Libre",
+        "Cliente":""
+    }
+]

@@ -1,0 +1,26 @@
+
+.Table {
+    border-collapse:collapse;
+    min-width: 480px;
+    text-align: left;
+    background-color: #ffff;
+}
+
+.Table thead tr {
+    background-color: #009879;
+    color:#ffff;
+}
+
+ .Table td {
+    padding:12px 15px;
+    color:#797979;
+}
+
+.Table tr :hover {
+    background-color: teal;
+    color: white;
+}
+
+.Table th {
+    padding:12px 15px;
+}
